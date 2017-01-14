@@ -1,10 +1,18 @@
-$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+
+
+// Override Bootstrap variables
+@import "variables";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-
+// Site-specific styles
+// Add additional stylesheets below
+@import "content";
 
 .browsehappy {
   margin: 0.2em 0;
@@ -61,7 +69,7 @@ body {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
     h1 {
-    color: green;
+    color: red;
 }
   .btn {
     font-size: 21px;

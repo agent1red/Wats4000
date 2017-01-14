@@ -1,0 +1,41 @@
+body {
+    color: green;
+}
+
+.marketing, .header {
+ @include border-top-radius(50px);
+ @include border-bottom-radius(50px);
+    h3, h4,a, p {
+        color: $brand-warning;
+		font-family: $font-family;
+    }
+    p {
+        color: $brand-primary;
+		font-family: $font-family;
+    }
+	
+}
+
+.container .jumbotron, #appleImage {
+    @include border-top-radius(50px);
+    @include border-bottom-radius(50px);
+	
+	.btn {
+	
+	@include button-variant(red, white, blue);
+	
+	}
+	#appleImage {
+	
+	@include opacity(0.7);
+	}
+}
+
+.footer p   {
+
+	@include text-hide()
+
+}
+
+
+
