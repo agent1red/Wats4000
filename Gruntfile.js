@@ -44,8 +44,6 @@ module.exports = function (grunt) {
       branch: 'gh-pages'
     }
   }
-  Configuring grunt - build - control
-  56
 },
     // Watches files for changes and runs tasks based on the changed files
     watch: {
